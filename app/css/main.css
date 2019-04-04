@@ -11,6 +11,9 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   height: 100vh;
@@ -22,6 +25,6 @@ body {
     background-color: teal;
     -webkit-border-radius: .5em;
             border-radius: .5em;
-    color: orangered;
+    color: white;
     width: 80px;
     height: 80px; }
