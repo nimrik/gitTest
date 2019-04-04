@@ -20,7 +20,7 @@ body {
   font-size: 2em; }
   body h1 {
     padding: 1em;
-    margin: 1em;
+    margin: 10px;
     display: block;
     background-color: teal;
     -webkit-border-radius: .5em;
