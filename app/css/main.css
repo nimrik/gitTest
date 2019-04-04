@@ -1,0 +1,27 @@
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 100vh;
+  font-size: 2em; }
+  body h1 {
+    padding: 1em;
+    margin: 1em;
+    display: block;
+    background-color: teal;
+    -webkit-border-radius: .5em;
+            border-radius: .5em;
+    color: orangered;
+    width: 80px;
+    height: 80px; }
