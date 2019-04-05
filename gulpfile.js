@@ -9,7 +9,8 @@ var gulp       = require('gulp'), // Подключаем Gulp
 	imagemin     = require('gulp-imagemin'), // Подключаем библиотеку для работы с изображениями
 	pngquant     = require('imagemin-pngquant'), // Подключаем библиотеку для работы с png
 	cache        = require('gulp-cache'), // Подключаем библиотеку кеширования
-	autoprefixer = require('gulp-autoprefixer');// Подключаем библиотеку для автоматического добавления префиксов
+	autoprefixer = require('gulp-autoprefixer'),// Подключаем библиотеку для автоматического добавления префиксов
+	uncss = require('gulp-uncss');
 
 gulp.task('sass', function(){ // Создаем таск Sass
 	return gulp.src('app/sass/**/*.sass') // Берем источник
@@ -17,6 +18,7 @@ gulp.task('sass', function(){ // Создаем таск Sass
 		.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
 		.pipe(gulp.dest('app/css')) // Выгружаем результата в папку app/css
 		.pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
+
 });
 
 gulp.task('browser-sync', function() { // Создаем таск browser-sync
@@ -33,7 +35,7 @@ gulp.task('scripts', function() {
 		// 'app/libs/jquery/dist/jquery.min.js', // Берем jQuery
 		// 'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js' // Берем Magnific Popup
 		])
-		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
+		// .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
 		.pipe(uglify()) // Сжимаем JS файл
 		.pipe(gulp.dest('app/js')); // Выгружаем в папку app/js
 });
@@ -61,11 +63,36 @@ gulp.task('img', function() {
 		.pipe(gulp.dest('dist/img')); // Выгружаем на продакшен
 });
 
-gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
+
+gulp.task('uncss', function () {
+	return gulp.src('app/css/*.css')
+		.pipe(uncss({
+			html: ['app/*.html']
+		}))
+		.pipe(gulp.dest('app/css'));
+});
+
+gulp.task('build', ['clean', 'img', 'sass', 'scripts', 'uncss'], function() {
 
 	var buildCss = gulp.src([ // Переносим библиотеки в продакшен
 		'app/css/main.css',
-		'app/css/libs.min.css'
+		'app/css/libs.min.css',
+		'app/css/style.css',
+		'app/css/header-style.css',
+		'app/css/grid.css',
+		'app/css/animate.css',
+		'app/css/blackboard.css',
+		'app/css/components-style.css',
+		'app/css/font-awesome.min.css',
+		'app/css/footer-style.css',
+		'app/css/foundation.css',
+		'app/css/foundation.min.css',
+		'app/css/normalize.css',
+		'app/css/screen.css',
+		'app/css/slick.css',
+		'app/css/style_notopt.css',
+		'app/css/wp-style.css',
+		'app/css/IsometricGrids/components.css'
 		])
 	.pipe(gulp.dest('dist/css'))
 

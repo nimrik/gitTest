@@ -20,6 +20,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglifyjs": "^0.6.2",
+    "gulp-uncss": "^1.0.6",
     "imagemin-pngquant": "^7.0.0"
   },
   "dependencies": {

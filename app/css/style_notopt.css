@@ -1,0 +1,1618 @@
+@charset "utf-8";
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*@import "compass/reset";*/
+/* line 12, ../sass/screen.scss */
+.bg_section {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: #4A5971;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1933px;*/
+    content: '';
+}
+
+
+/* line 29, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
+
+/*╨ƒ╨╡╤Ç╨▓╤ï╨╣ ╤ì╨║╤Ç╨░╨╜*/
+/* line 192, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
+
+/*╨¥╨░╤ê╨╡ ╤Ç╨░╨╖╨▓╨╕╤é╨╕╨╡*/
+/* line 250, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
+
+/*╨ƒ╤Ç╨╛╨┤╤â╨║╤é╤ï*/
+/* line 270, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss
+.products .tabs-content {
+  background-color: #7D9093;
+}*/
+/* line 332, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
+/* line 360, ../sass/screen.scss */
+/* line 363, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
+
+/* line 372, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
+/* line 385, ../sass/screen.scss */
+
+/* line 393, ../sass/screen.scss */
+
+/*--------------------- Basic -----------------------*/
+input, .btn, input:hover, .btn:hover, input:active, .btn:active, input:focus, .btn:focus {
+    outline: none !important;
+    outline: 0 !important;
+}
+
+.clear {
+    clear: both;
+}
+
+body,html{
+    position: relative;
+    z-index: -1;
+    height: auto;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.site_wrapper{
+    position: relative;
+    z-index: -2;
+    overflow-x:hidden;
+}
+
+*:hover,
+*:focus {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:focus{
+    color:white;
+}
+
+*,
+p {
+    margin: 0;
+    outline: none;
+    color: #323132;
+    letter-spacing: 0;
+    font-weight: normal;
+    font-style: inherit;
+    font-size: 15px;
+    font-family: 'pf_square_sans_proregular', Arial, serif;
+    line-height: 1.25;
+    /*text-shadow: 0px 0px 0px;*/
+
+    -webkit-font-smoothing: subpixel-antialiased;
+    /*-webkit-text-stroke-width: 0.05px;*/
+}
+p{
+ margin:5px 0px;
+}
+
+p strong {
+    font-weight: bold;
+    font-family: 'pf_square_sans_proregular', Arial, serif;
+}
+
+.right {
+    float: right;
+}
+
+/*--------------------- Fonts -----------------------*/
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_prothin';
+    src: url('../fonts/pfsquaresanspro-thin-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-thin-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-thin-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-thin-webfont.svg#pf_square_sans_prothin') format('svg');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_prolight';
+    src: url('../fonts/pfsquaresanspro-light-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-light-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-light-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-light-webfont.svg#pf_square_sans_prolight') format('svg');
+}
+
+@font-face {
+	/*
+    src: url('../fonts/pfsquaresanspro-regular-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-regular-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-regular-webfont.svg#pf_square_sans_proregular') format('svg');
+	*/
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_proregular';
+	src: url('../fonts/agora/PFAgoraSansPro-Reg.ttf') format('truetype');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_probold';
+    src: url('../fonts/pfsquaresanspro-bold-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-bold-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-bold-webfont.svg#pf_square_sans_probold') format('svg');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_proitalic';
+    src: url('../fonts/pfsquaresanspro-italic-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-italic-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-italic-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-italic-webfont.svg#pf_square_sans_proitalic') format('svg');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_probold_italic';
+    src: url('../fonts/pfsquaresanspro-bolditalic-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-bolditalic-webfont.svg#pf_square_sans_probold_italic') format('svg');
+}
+
+@font-face {
+	/*
+    src: url('../fonts/pfsquaresanspro-medium-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-medium-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-medium-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-medium-webfont.svg#pf_square_sans_promedium') format('svg');
+    */
+	font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_promedium';
+	src: url('../fonts/agora/PFAgoraSansPro-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_proMdIt';
+    src: url('../fonts/pfsquaresanspro-mediumitalic-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-mediumitalic-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-mediumitalic-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-mediumitalic-webfont.svg#pf_square_sans_proMdIt') format('svg');
+}
+
+@font-face {
+	/*
+    src: url('../fonts/pfsquaresanspro-thinitalic-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-thinitalic-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-thinitalic-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-thinitalic-webfont.svg#pf_square_sans_prothin_italic') format('svg');
+    */
+	font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_prothin_italic';
+	src: url('../fonts/agora/PFAgoraSansPro-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_proLtIt';
+    src: url('../fonts/pfsquaresanspro-lightitalic-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-lightitalic-webfont.svg#pf_square_sans_proLtIt') format('svg');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'pf_square_sans_proextra_black';
+    src: url('../fonts/pfsquaresanspro-extrablack-webfont.eot');
+    src: url('../fonts/pfsquaresanspro-extrablack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfsquaresanspro-extrablack-webfont.woff') format('woff'),
+         url('../fonts/pfsquaresanspro-extrablack-webfont.ttf') format('truetype'),
+         url('../fonts/pfsquaresanspro-extrablack-webfont.svg#pf_square_sans_proextra_black') format('svg');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'neo_sans_pro_regular';
+    src: url('../fonts/NeoSansPro-Regular.eot');
+    src: url('../fonts/NeoSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NeoSansPro-Regular.woff') format('woff'),
+         url('../fonts/NeoSansPro-Regular.ttf') format('truetype'),
+         url('../fonts/NeoSansPro-Regular.svg#neo_sans_pro_regular') format('svg');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Regular.eot');
+  src: url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Ubuntu-Regular.woff') format('woff'),
+     url('../fonts/Ubuntu-Regular.ttf') format('truetype'),
+         url('../fonts/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'pf_square_sans_probold', arial, sans-serif;
+    line-height: 1.2;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 65px;
+    font-family: 'pf_square_sans_promedium', arial, sans-serif;
+}
+
+h2 {
+margin:15px 0px 15px 5px;
+    font-size: 30px;
+    font-family: 'pf_square_sans_promedium', arial, sans-serif;
+}
+
+h3 {
+margin:15px 0px;
+    font-size: 24px;
+    font-family: 'pf_square_sans_promedium', arial, sans-serif;
+}
+
+h4 {
+margin:15px 0px;
+    font-size: 19px;font-family: 'pf_square_sans_promedium', arial, sans-serif;
+
+}
+
+i {
+    font-family: 'pf_square_sans_proitalic', arial, serif;
+}
+
+/*
+   Animation example, for spinners
+*/
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'evergreens';
+  src: url('../fonts/evergreens.eot?81223458');
+  src: url('../fonts/evergreens.eot?81223458#iefix') format('embedded-opentype'),
+       url('../fonts/evergreens.woff?81223458') format('woff'),
+       url('../fonts/evergreens.ttf?81223458') format('truetype'),
+       url('../fonts/evergreens.svg?81223458#evergreens') format('svg');
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'evergreens';
+    src: url('../font/evergreens.svg?81223458#evergreens') format('svg');
+  }
+}
+*/
+ 
+ [class*=" icon-"]:before {
+  display: inline-block;
+  /* margin-right: .2em; */
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  font-family: "evergreens";
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  speak: none; 
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /* margin-left: .2em; */
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+} /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */
+
+
+
+
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'evergreens-add';
+  src: url('../fonts/evergreen-add.eot?81223458');
+  src: url('../fonts/evergreen-add.eot?81223458#iefix') format('embedded-opentype'),
+       url('../fonts/evergreen-add.woff?81223458') format('woff'),
+       url('../fonts/evergreen-add.ttf?81223458') format('truetype'),
+       url('../fonts/evergreen-add.svg?81223458#evergreens') format('svg');
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'evergreens-add';
+    src: url('../font/evergreen-add.svg?81223458#evergreens') format('svg');
+  }
+}
+*/ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */ /* '' */
+
+.title_sector a{
+	font-style: italic;
+
+	FONT-SIZE:13px;
+}
+
+.title_sector h1,
+.title_sector h2{
+    display: inline-block;
+    color: #000;
+    text-align: left;
+    text-transform: none;
+    font-size: 40px;
+    font-family: 'pf_square_sans_promedium', arial, sans-serif;
+}
+
+.title_sector p {
+    display: inline-block;
+	color: #000;
+	font-size: 16px;
+	font-family: 'pf_square_sans_proitalic', arial, sans-serif;
+}
+
+
+/*.run_img:before {*/
+	/*content: '';*/
+	/*position: absolute;*/
+	/*background-image: url(../image/run_img.png);*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: 50% 0;*/
+	/*width: 68px;*/
+	/*height: 83px;*/
+	/*left: 0;*/
+	/*top: 0;*/
+/*}*/
+
+/*-------------Custom Select-------------*/
+
+/*-------------Product Page-------------*/
+
+.no-side-padding{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/*Current Position*/
+
+/*Product Page. Typography & Styles*/
+
+.button{
+  margin: 0;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.button{
+  padding-top: 0;
+  padding-right: 15px;
+  padding-bottom: 0;
+  padding-left: 15px;
+height:42px;
+  background: #EC8171;
+text-transform:uppercase;
+  font-size: 16px;
+  font-family: 'pf_square_sans_proregular', Arial, serif;
+  line-height: 42px;;
+}
+
+/*Product Page. General*/
+.support_page{
+  position: relative;
+  z-index: -3;
+  padding-top: 180px;
+  background: #e4e4e4;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e4e4e4 0%, #ffffff 35%, #ffffff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e4e4e4), color-stop(35%, #ffffff), color-stop(100%, #ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e4e4e4 0%, #ffffff 35%, #ffffff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e4e4e4 0%, #ffffff 35%, #ffffff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e4e4e4 0%, #ffffff 35%, #ffffff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #e4e4e4 0%, #ffffff 35%, #ffffff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e4e4', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+.support_page .bg_section{
+  width: 100%;
+  height: 100%;
+/*  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255,0) 750px ,rgba(255, 255, 255, 1) 850px), url(../image/textured-background-grey.jpg);*/
+  background: #f4f4f4;
+  background-position:  top center;
+  background-repeat:  repeat-x;
+}
+
+.bg_section{
+  z-index: -10;
+}
+
+/*Product Page. Choose Service*/
+
+/*Product Page. Footer*/
+
+/*.footer_middle a{*/
+     /*display: block;*/
+ /*}*/
+
+/*.footer_middle > a > h6{*/
+    /*position: relative;*/
+/*}*/
+
+/*.double_underline:after{*/
+    /*content: '';*/
+    /*border-top: 1px solid #FFF;*/
+    /*position: absolute;*/
+    /*bottom: 6px;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*-webkit-transform: rotatey(90deg);*/
+    /*-moz-transform: rotatey(90deg);*/
+    /*-ms-transform: rotatey(90deg);*/
+    /*-o-transform: rotatey(90deg);*/
+    /*transform: rotatey(90deg);*/
+    /*-webkit-transition: -webkit-transform 0.3s;*/
+    /*-moz-transition: -moz-transform 0.3s;*/
+    /*-ms-transition: -ms-transform 0.3s;*/
+    /*-o-transition: -o-transform 0.3s;*/
+    /*transition: transform 0.3s;*/
+/*}*/
+
+/*.double_underline:hover::after{*/
+    /*-webkit-transform: rotatey(0);*/
+    /*-moz-transform: rotatey(0);*/
+    /*-ms-transform: rotatey(0);*/
+    /*-o-transform: rotatey(0);*/
+    /*transform: rotatey(0);*/
+/*}*/
+
+.footer ul li:first-of-type{
+  list-style-image: url('../image/marker.png');
+}
+
+.footer li a{
+  text-decoration: underline;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
+/*.footer li a{*/
+    /*position: relative;*/
+/*}*/
+
+/*.footer li a:after{*/
+    /*content: '';*/
+    /*border-top: 1px solid #FFF;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*-webkit-transition: all 0.3s;*/
+    /*-moz-transition: all 0.3s;*/
+    /*-ms-transition: all 0.3s;*/
+    /*-o-transition: all 0.3s;*/
+    /*transition: all 0.3s;*/
+/*}*/
+
+/*.footer li a:hover::after{*/
+    /*border-top: 1px solid transparent;*/
+/*}*/
+
+.footer li a:hover{
+  text-decoration: none;
+}
+
+/*Project Page*/
+
+/*Project page. Project Preview*/
+
+/*
+.project_slider{
+  padding-bottom: 500px;
+}
+*/
+
+/*.project_thumbs{
+  padding: 12px;
+}*/
+
+/*Case Page*/
+
+.margin-top-s{
+  margin-top: 20px
+}
+
+/*Case Page.Intro*/
+
+@-moz-document url-prefix() {
+}
+
+/*Case Page.Project Unique Attributes*/
+
+/*Case Page.Project Stages*/
+/*.stages .title_sector_white{
+  margin-left: 15px;
+}*/
+
+/*.stages_item-7{*/
+    /*width:14%;*/
+/*}*/
+
+
+/*Case Page.Analysis*/
+
+/****interactive-blocks*/
+
+/*Case Page.Design*/
+
+@-moz-document url-prefix() {
+}
+
+/*Case Page.Team*/
+
+/*Case Page.Technologies*/
+
+/*#menu_left ul li {*/
+    /*padding-bottom: 2px;*/
+/*}*/
+
+/*#menu_left ul a{*/
+    /*position: relative;*/
+/*}*/
+
+/*#menu_left ul a:after {*/
+    /*content: '';*/
+    /*border-top: 1px solid #FFF;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*-webkit-transform: rotatey(90deg);*/
+    /*-moz-transform: rotatey(90deg);*/
+    /*-ms-transform: rotatey(90deg);*/
+    /*-o-transform: rotatey(90deg);*/
+    /*transform: rotatey(90deg);*/
+    /*-webkit-transition: -webkit-transform 0.3s;*/
+    /*-moz-transition: -moz-transform 0.3s;*/
+    /*-ms-transition: -ms-transform 0.3s;*/
+    /*-o-transition: -o-transform 0.3s;*/
+    /*transition: transform 0.3s;*/
+/*}*/
+
+/*#menu_left ul a:hover::after{*/
+    /*-webkit-transform: rotatey(0);*/
+    /*-moz-transform: rotatey(0);*/
+    /*-ms-transform: rotatey(0);*/
+    /*-o-transform: rotatey(0);*/
+    /*transform: rotatey(0);*/
+/*}*/
+
+/*#menu_left > a{*/
+    /*display: block;*/
+/*}*/
+
+/*#menu_left > a > h6{*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+/*}*/
+
+/*#menu_left > a > h6:after{*/
+    /*content: '';*/
+    /*border-top: 1px solid #FFF;*/
+    /*position: absolute;*/
+    /*bottom: 6px;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*-webkit-transform: rotatey(90deg);*/
+    /*-moz-transform: rotatey(90deg);*/
+    /*-ms-transform: rotatey(90deg);*/
+    /*-o-transform: rotatey(90deg);*/
+    /*transform: rotatey(90deg);*/
+    /*-webkit-transition: -webkit-transform 0.3s;*/
+    /*-moz-transition: -moz-transform 0.3s;*/
+    /*-ms-transition: -ms-transform 0.3s;*/
+    /*-o-transition: -o-transform 0.3s;*/
+    /*transition: transform 0.3s;*/
+/*}*/
+
+/*#menu_left > a > h6:hover::after{*/
+    /*-webkit-transform: rotatey(0);*/
+    /*-moz-transform: rotatey(0);*/
+    /*-ms-transform: rotatey(0);*/
+    /*-o-transform: rotatey(0);*/
+    /*transform: rotatey(0);*/
+/*}*/
+
+/*#clone_contact a{*/
+    /*position: relative;*/
+/*}*/
+
+/*#clone_contact a:after{*/
+    /*content: '';*/
+    /*border-top: 1px solid black;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*-webkit-transition: all 0.3s;*/
+    /*-moz-transition: all 0.3s;*/
+    /*-ms-transition: all 0.3s;*/
+    /*-o-transition: all 0.3s;*/
+    /*transition: all 0.3s;*/
+    /*transform-origin: right;*/
+/*}*/
+
+/*#clone_contact a:hover::after{*/
+    /*border-top: 1px solid transparent;*/
+/*}*/
+
+/*#i-interested label,*/
+/*#i-want label,*/
+/*#call-me label{*/
+	/*position: absolute;*/
+/*}*/
+
+/*Home Page*/
+
+/*HIDE PHONES BY LANG*/
+.move_center{
+	position: relative;
+	right: -81px;
+}
+
+/*.accordion .tabs-content{*/
+    /*height: 0;*/
+    /*-webkit-transition: height 0.5s;*/
+    /*-moz-transition: height 0.5s;*/
+    /*-ms-transition: height 0.5s;*/
+    /*-o-transition: height 0.5s;*/
+    /*transition: height 0.5s;*/
+/*}*/
+
+/*.accordion .tabs-content.active{*/
+    /*height: 100%;*/
+/*}*/
+
+.button:hover, .button:focus{
+  background-color:#F29288;
+}
+
+/* ----------------- Contacts page -------------------*/
+/* line 404, ../sass/screen.scss */
+/* line 420, ../sass/screen.scss */
+/* line 426, ../sass/screen.scss */
+/* line 432, ../sass/screen.scss */
+/* line 436, ../sass/screen.scss */
+/* line 439, ../sass/screen.scss */
+/* line 442, ../sass/screen.scss */
+
+/* line 449, ../sass/screen.scss */
+/* line 454, ../sass/screen.scss */
+/* line 457, ../sass/screen.scss */
+
+/* line 472, ../sass/screen.scss */
+.breadcrumbs {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  border: 0px;
+  background: none;
+  text-align: center;
+}
+/* line 480, ../sass/screen.scss */
+.breadcrumbs *, .breadcrumbs a, .breadcrumbs span {
+  color: #5d5d5d;
+  text-transform: none;
+  font-size: 14px;
+}
+
+.breadcrumbs li:last-child{
+	margin-top: -3px;
+}
+
+.breadcrumbs li{
+	display: inline-block;
+	float: none;
+	margin-bottom: 10px;
+}
+
+/* ----------------- Team page -------------------*/
+/* line 491, ../sass/screen.scss */
+/* line 504, ../sass/screen.scss */
+/* line 510, ../sass/screen.scss */
+/* line 514, ../sass/screen.scss */
+/* line 518, ../sass/screen.scss */
+/* line 524, ../sass/screen.scss */
+/* line 532, ../sass/screen.scss */
+/* line 535, ../sass/screen.scss */
+/* line 543, ../sass/screen.scss */
+/* line 549, ../sass/screen.scss */
+/* line 556, ../sass/screen.scss */
+/* line 561, ../sass/screen.scss */
+/* line 572, ../sass/screen.scss */
+/* line 577, ../sass/screen.scss */
+/* line 584, ../sass/screen.scss */
+
+/* line 589, ../sass/screen.scss */
+/* line 594, ../sass/screen.scss */
+/* line 608, ../sass/screen.scss */
+/* line 614, ../sass/screen.scss */
+/* line 618, ../sass/screen.scss */
+/* line 626, ../sass/screen.scss */
+/* line 640, ../sass/screen.scss */
+/* line 658, ../sass/screen.scss */
+/* line 670, ../sass/screen.scss */
+/* line 678, ../sass/screen.scss */
+/* line 685, ../sass/screen.scss */
+/* line 691, ../sass/screen.scss */
+/* line 695, ../sass/screen.scss */
+/* line 699, ../sass/screen.scss */
+/* line 702, ../sass/screen.scss */
+/* line 706, ../sass/screen.scss */
+/* line 713, ../sass/screen.scss */
+/* line 722, ../sass/screen.scss */
+/* line 729, ../sass/screen.scss */
+/* line 738, ../sass/screen.scss */
+/* line 744, ../sass/screen.scss */
+/* line 750, ../sass/screen.scss */
+/* line 755, ../sass/screen.scss */
+/* line 758, ../sass/screen.scss */
+/* line 765, ../sass/screen.scss */
+/* line 768, ../sass/screen.scss */
+
+/*.im_animation:hover .primary_photo{*/
+    /*visibility: hidden;*/
+    /*display: none;*/
+/*}*/
+
+/*.im_animation:hover .sec_photo{*/
+    /*visibility: visible;*/
+    /*display: block;*/
+/*}*/
+
+/*Tech Support*/
+
+/* line 976, ../sass/screen.scss */
+
+/* line 981, ../sass/screen.scss */
+
+/* line 987, ../sass/screen.scss */
+/* line 992, ../sass/screen.scss */
+/* line 1002, ../sass/screen.scss */
+/* line 1008, ../sass/screen.scss */
+/* line 1014, ../sass/screen.scss */
+/* line 1022, ../sass/screen.scss */
+/*
+.features .orbit-container .orbit-slides-container{
+  top:50%;
+  -webkit-transform: translatey(-50%);
+   -moz-transform: translatey(-50%);
+	-ms-transform: translatey(-50%);
+	 -o-transform: translatey(-50%);
+		transform: translatey(-50%);
+}
+*/
+
+/* line 1027, ../sass/screen.scss */
+/* line 1032, ../sass/screen.scss */
+
+/*.support_page .features .features-slider .slider .orbit-container .orbit-bullets-container .orbit-bullets{
+  height: 27px;
+}*/
+/* line 1053, ../sass/screen.scss */
+/* line 1056, ../sass/screen.scss */
+/* line 1063, ../sass/screen.scss */
+/* line 1076, ../sass/screen.scss */
+/* line 1089, ../sass/screen.scss */
+/* line 1096, ../sass/screen.scss */
+
+
+/*Tech Support. Trust Section*/
+
+/*Tech Support. Our Clients*/
+
+/* line 1219, ../sass/screen.scss */
+/* line 1224, ../sass/screen.scss */
+/* line 1229, ../sass/screen.scss */
+/* line 1245, ../sass/screen.scss */
+/* line 1250, ../sass/screen.scss */
+/* line 1255, ../sass/screen.scss */
+/* line 1260, ../sass/screen.scss */
+/* line 1265, ../sass/screen.scss */
+/* line 1269, ../sass/screen.scss */
+/* line 1273, ../sass/screen.scss */
+
+/* ----------------- Landing page -------------------*/
+/* line 868, ../sass/screen.scss */
+/* line 881, ../sass/screen.scss */
+/* line 887, ../sass/screen.scss */
+/* line 893, ../sass/screen.scss */
+/* line 898, ../sass/screen.scss */
+/* line 904, ../sass/screen.scss */
+/* line 910, ../sass/screen.scss */
+/* line 917, ../sass/screen.scss */
+/* line 924, ../sass/screen.scss */
+/* line 932, ../sass/screen.scss */
+
+/* line 940, ../sass/screen.scss */
+/* line 945, ../sass/screen.scss */
+/* line 951, ../sass/screen.scss */
+
+/* line 958, ../sass/screen.scss */
+/* line 963, ../sass/screen.scss */
+/* line 969, ../sass/screen.scss */
+
+/* line 1133, ../sass/screen.scss */
+/* line 1140, ../sass/screen.scss */
+
+/* line 1219, ../sass/screen.scss */
+/* line 1224, ../sass/screen.scss */
+/* line 1229, ../sass/screen.scss */
+/* line 1245, ../sass/screen.scss */
+/* line 1250, ../sass/screen.scss */
+/* line 1255, ../sass/screen.scss */
+/* line 1260, ../sass/screen.scss */
+/* line 1265, ../sass/screen.scss */
+/* line 1269, ../sass/screen.scss */
+/* line 1273, ../sass/screen.scss */
+
+/* line 1282, ../sass/screen.scss */
+/* line 1285, ../sass/screen.scss */
+/* line 1290, ../sass/screen.scss */
+
+/* line 1303, ../sass/screen.scss */
+
+/* line 1308, ../sass/screen.scss */
+/* line 1322, ../sass/screen.scss */
+/* line 1328, ../sass/screen.scss */
+/* line 1335, ../sass/screen.scss */
+
+/* line 1346, ../sass/screen.scss */
+.latest-work {
+  padding: 40px 15px;
+}
+
+.latest-work .title_sector {
+  margin-bottom: 20px;
+}
+
+
+/*.latest-work .latest_land_item:nth-of-type(4){
+	float: right;
+}*/
+/* line 1349, ../sass/screen.scss */
+.latest-work .view {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+height:190px;
+background-size:cover;
+  text-align: center;
+  cursor: default;
+}
+/* line 1357, ../sass/screen.scss */
+.latest-work .view .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+}
+/* line 1366, ../sass/screen.scss */
+/* line 1371, ../sass/screen.scss */
+/* line 1382, ../sass/screen.scss */
+.latest-work .view p {
+  position: relative;
+  padding: 10px 0px 0px 0px;
+  color: #231f20;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'pf_square_sans_promedium', arial, sans-serif;
+}
+.latest-work .view p.portfolio_title{
+font-weight:bold;
+font-size:22px;
+ 
+}
+.latest-work .view p.btn {
+    margin-top : 5px;
+    padding    : 10px 15px;
+    color      : #fff;
+    font-size  : 14px;
+}
+/* line 1391, ../sass/screen.scss */
+/* line 1402, ../sass/screen.scss */
+/* line 1412, ../sass/screen.scss */
+/* line 1420, ../sass/screen.scss */
+.latest-work .view-sixth .mask {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.3s ease-in 0.4s;
+  -moz-transition: all 0.3s ease-in 0.4s;
+  -ms-transition: all 0.3s ease-in 0.4s;
+  -o-transition: all 0.3s ease-in 0.4s;
+  transition: all 0.3s ease-in 0.4s;
+}
+
+/* line 1433, ../sass/screen.scss */
+/* line 1452, ../sass/screen.scss */
+.latest-work .view-sixth p {
+  opacity: 0;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.3s ease-in-out 0.2s;
+  -moz-transition: all 0.3s ease-in-out 0.2s;
+  -ms-transition: all 0.3s ease-in-out 0.2s;
+  -o-transition: all 0.3s ease-in-out 0.2s;
+  transition: all 0.3s ease-in-out 0.2s;
+  -webkit-transform: scale(10);
+  -moz-transform: scale(10);
+  -ms-transform: scale(10);
+  -o-transform: scale(10);
+  transform: scale(10);
+}
+
+
+/* line 1468, ../sass/screen.scss */
+/* line 1486, ../sass/screen.scss */
+.latest-work .view-sixth:hover .mask {
+  opacity: 1;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+/* line 1497, ../sass/screen.scss */
+/* line 1505, ../sass/screen.scss */
+/* line 1521, ../sass/screen.scss */
+.latest-work .view-sixth:hover p {
+  opacity: 1;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -ms-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+/* line 1537, ../sass/screen.scss */
+
+/* line 1556, ../sass/screen.scss */
+/* line 1561, ../sass/screen.scss */
+/* line 1567, ../sass/screen.scss */
+/* line 1571, ../sass/screen.scss */
+/* line 1581, ../sass/screen.scss */
+/* line 1589, ../sass/screen.scss */
+/* line 1593, ../sass/screen.scss */
+/* line 1598, ../sass/screen.scss */
+/* line 1603, ../sass/screen.scss */
+/* line 1608, ../sass/screen.scss */
+/* line 1612, ../sass/screen.scss */
+
+
+
+@media only screen and (max-width: 35.0625em){
+
+    img.move_center{
+        max-width:160px;
+    }
+
+    /* line 608, ../sass/screen.scss */
+    /* line 614, ../sass/screen.scss */
+    /* line 618, ../sass/screen.scss */
+    /* line 626, ../sass/screen.scss */
+    /* line 640, ../sass/screen.scss */
+
+  /*Tech Support*/
+}
+
+@media only screen and (min-width: 500px) and (max-width: 35.0625em){
+
+	.breadcrumbs>li:before{
+		margin: 0 2px;
+	}
+
+  /*
+  .products .accordion .tabs-content hr:last-of-type,
+  .products .accordion .tabs-content hr:nth-of-type(2n+1) {
+	display: none;
+  }
+  */
+}
+
+@media only screen and (min-width: 35.0625em){
+
+  /*Stages*/
+
+  /*Case Page.Design*/
+
+  /*Home Page*/
+
+  /*Tech Support*/
+
+    /*.info_block_container:nth-child(odd) {*/
+        /*float : left !important;*/
+        /*clear : both;*/
+        /*margin-right : 50px;*/
+    /*}*/
+
+    /*.info_block_container:nth-child(even) {*/
+        /*float : right !important;*/
+        /*margin-left : 50px;*/
+    /*}*/
+}
+
+@media only screen and (min-width: 35.0625em) and (max-width: 64.063em){
+
+  /*Home Page*/
+
+  /*Team*/
+}
+
+@media only screen and (min-width: 64.063em){
+
+    .row{
+		max-width: 1000px;
+	}
+
+  /*Stages*/
+  /*
+  .support_page .stages .stages_item:not(:last-child){
+	margin-right: 121px;
+  }
+  */
+
+  .no-padding-large{
+	padding-right: 0;
+	padding-left: 0;
+  }
+
+  .blue{
+	background: #277B9D;
+  }
+
+  /*Case Page*/
+
+  /*Case Page.Project Unique Attributes*/
+
+/*  .project_unique_item:nth-child(1) p{
+	max-width: 140px;
+  }
+
+  .project_unique_item:nth-child(2) p{
+	max-width: 50px;
+  }
+  .project_unique_item:nth-child(3) p{
+	max-width: 50px;
+  }
+
+  .project_unique_item:nth-child(4) p{
+	max-width: 120px;
+  }*/
+
+  /*Case Page.Analysis*/
+
+  /*Case Page.Design*/
+
+  /*Case Page.Technologies*/
+
+  /*Home Page*/
+
+  /*Team*/
+
+  /*Tech Support*/
+
+  .latest-work {
+margin-top:30px;
+	padding: 40px 0;
+  }
+
+  /*Footer*/
+
+  /*.landing_page .features .features-slider .slider .orbit-container .orbit-bullets-container{
+	padding-left: 15px;
+  }*/
+
+}
+
+@media screen and (max-width: 1024px) {
+  .move_center {
+	right: 0px;
+  }
+
+  #lang_switch li:not(.active){
+	position:absolute;
+	visibility: hidden;
+	background:#87B53E;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	   -moz-transition: opacity 0.3s;
+		-ms-transition: opacity 0.3s;
+		 -o-transition: opacity 0.3s;
+			transition: opacity 0.3s;
+  }
+
+  #lang_switch li:nth-of-type(2){
+	right: -1px;
+	bottom: -25px;
+	/*background: rgb(141, 150, 163);*/
+  }
+
+  #lang_switch li:nth-of-type(3){
+	right: -1px;
+	bottom: -51px;
+	/*background: rgb(141, 150, 163);*/
+  }
+
+  #lang_switch li:not(.active):hover{
+	background:rgb(101, 108, 117);
+  }
+
+}
+
+@media screen and (max-width: 641px) {
+
+  .support_page{
+	  padding-top: 90px;
+  }
+}
+
+.overflow_hidden{
+    position: relative;
+        display: block;
+    overflow: hidden;
+    padding: 20px 30px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+/*#call-me-back .btn{*/
+	/*margin-top: 25px;	*/
+/*}*/
+
+/*#call-me-back label{*/
+	/*position: absolute;*/
+/*}*/
+
+/*Погода в футере (значок)*/
+
+/*Ясно*/
+
+/*Пасмурно*/
+
+/*Дождь*/
+
+/*Снег*/
+
+/*Погода в первом блоке на главной*/
+
+/*Ясно*/
+
+/*Пасмурно*/
+
+/*Дождь*/
+/*ГРОЗА*/
+
+
+/*Снег*/
+
+/*Погода в блоке "Я хочу"*/
+
+
+/*Ясно*/
+
+/*Пасмурно*/
+
+/*Дождь*/
+
+/*ГРОЗА*/
+
+/*Снег*/
+
+/*========RTL ВЕРСИЯ========*/
+
+/*.rtl .portfolio_item{
+	padding-right: 0;
+}*/
+
+.wow{
+    visibility: hidden;
+}
+
+/*liqpay*/
+
+ /*CV Form*/
+
+
+
+/***SEO - content */
+
+/*********ARTILES********/
+
+
+.article-box{
+padding: 10px 8px 10px;
+height:590px;
+}
+
+.article-box span.overflow_hidden{
+padding:0px;
+background:#fff;
+}
+
+.article-box span.overflow_hidden p{
+padding:0px 20px;
+}
+
+.articles_inn .article-box   span.overflow_hidden p.article_title{
+padding: 15px 20px;
+font-weight:bold;
+font-size:22px;
+
+}
+
+.articles_inn .article-box   span.overflow_hidden .article_stats{
+padding:10px 0px 10px 30px;
+text-align:left;
+}
+
+.articles_inn .article-box   span.overflow_hidden .article_date{
+display:inline-block;
+color:#aaa;
+text-align:left;
+font-size:15px;
+}
+
+/**** SINGLE ARTILE ******/
+
+.article-body{
+padding:30px 55px 30px 55px;
+background:#fff;
+
+}
+
+.article-body p{
+    margin: 30px auto 10px auto;
+    color: #111;
+    font-size: 16px;
+}
+
+.article-body p * {
+ font-size:16px;
+
+}
+
+.article-body p strong{
+color:black;
+ font-family: 'pf_square_sans_probold', Arial, serif;
+}
+
+.article-body img{
+	margin:5px auto 20px auto;
+}
+.article-body h2{
+margin-top:30px;
+font-size:25px;
+
+}
+
+
+/***** NEW PAGES UPDATE SEPT 2016 ****/
+
+
+/*BUTTON*/
+
+ .btn
+{
+display: inline-block;
+padding: 12px 15px;
+min-width: 46px;
+height:42px;
+border:none;
+border-radius:3px;
+background:#EC8171;
+box-shadow: 0px 1px 1px #555;
+color:#fff;
+text-align:center;
+text-transform:uppercase;
+letter-spacing: 0px;
+font-size:14px;
+font-family: 'neo_sans_pro_regular', arial, sans-serif;
+cursor: pointer;
+
+}
+
+.btn:hover{
+background:#F29288;
+}
+
+
+/*NEW PAGE*/
+
+.new_page {
+background:#fff;
+
+}
+
+.new_page h2{
+color:#303030;
+text-transform:uppercase;
+font-size:28px;
+
+}
+
+.main_page .bg_section{
+z-index:0;
+height:656px;
+background:url(../image/headers/ecommerce_head.jpg) #fff no-repeat;
+background-size:cover;
+}
+
+
+@media only screen and (max-width: 370px){
+	.new_page .bg_section{
+	height:920px;
+	}
+}
+
+@media only screen and (min-width: 371px) and (max-width: 1000px){
+	.new_page .bg_section{
+	height:820px;
+	}
+}
+
+.new_page .breadcrumbs span, .new_page .breadcrumbs .B_currentCrumb{
+ color:#ddd;
+font-size:12px;
+}
+
+.new_page .breadcrumbs > *:before{
+color:#aaa;
+
+}
+
+
+
+.new_page .bg_section{
+z-index:-100;
+height:656px;
+background-size:cover;
+
+}
+
+.main_page .bg_section{
+z-index:0;
+}
+
+.new_page .bg_section.blue{
+background: linear-gradient(0deg,#2A6170,#114354); 
+
+}
+
+/*NEW PAGE INTRO*/
+
+.new_intro{
+text-align:center;
+
+
+}
+.main_page h1{
+margin-top:190px;
+
+}
+.new_intro span{
+color:#fff;
+}
+
+.new_intro .title_sector h1{
+width:100%;
+color:#fff;
+text-align:center;
+text-transform:uppercase;
+font-size:36px;
+}
+.new_intro .title_sector p{
+color:#fff;
+font-style:normal;
+font-size:15px;
+font-family:'pf_square_sans_proregular', Arial, serif;
+}
+
+.new_intro .title_sector a{
+color:#fff;
+text-decoration:underline;
+font-style:normal;
+font-size:15px;
+}
+
+.main_page .new_intro .title_sector h1{
+
+}
+
+.main_page .new_intro .title_sector p{
+font-size:17px;
+}
+
+.new_intro  .buttons {
+  max-width:385px;
+}
+.new_intro  .buttons .btn{
+width:174px;
+}
+
+
+/***TERMS AND PRICES NEW 2016 ****/
+
+/***FAQ 2016 ****/
+
+
+/**** SUBSCRIBE ****/
+
+
+.subscribe-block {
+padding: 10px 0px 30px 0px;
+
+}
+
+.subscribe-block .title .h2{
+display: inline-block;
+    margin: 15px 0px;
+font-size: 30px;
+    font-family: 'pf_square_sans_promedium', arial, sans-serif;
+
+}
+
+.subscribe-block .title span{
+    display: inline-block;
+    color: #000;
+    font-size: 16px;
+    font-family: 'pf_square_sans_proitalic', arial, sans-serif;
+
+
+}
+
+.subscribe-block  #mc_embed_signup form{
+padding-left:0px;
+text-align:left;
+
+}
+
+
+/*****REVIEWS*****/
+
+
+
+/****REVIEWS****/
+
+/**** SINGLE REVIEW ******/
+.like-h2{margin:15px 0px 15px 5px;font-size:30px;font-family:'pf_square_sans_promedium',arial,sans-serif;}

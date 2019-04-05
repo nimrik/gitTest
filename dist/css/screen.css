@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*@import "compass/reset";*/
+/* line 12, ../sass/screen.scss */
+.bg_section {
+  /*position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1933px;*/
+  content: '';
+  position: absolute;
+  background: #4A5971 url(../image/rain002.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: 0;
+  top: 0;
+}
+
+/* line 29, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
+
+/*╨ƒ╨╡╤Ç╨▓╤ï╨╣ ╤ì╨║╤Ç╨░╨╜*/
+/* line 192, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
+
+/*╨¥╨░╤ê╨╡ ╤Ç╨░╨╖╨▓╨╕╤é╨╕╨╡*/
+/* line 250, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
+
+/*╨ƒ╤Ç╨╛╨┤╤â╨║╤é╤ï*/
+/* line 270, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
+/* line 317, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss
+.products .tabs-content {
+  background-color: #7D9093;
+}*/
+/* line 332, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
+/* line 360, ../sass/screen.scss */
+/* line 363, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
+
+/* line 372, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
+/* line 385, ../sass/screen.scss */
+
+/* line 393, ../sass/screen.scss */

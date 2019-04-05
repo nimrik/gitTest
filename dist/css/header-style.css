@@ -1,0 +1,968 @@
+/*************************************************************
+[TABLE OF CONTENTS]
+
+- Site Header
+- LOGO
+- MENU BUTTON
+- MENU BUTTON STYLE #1
+- MENU BUTTON STYLE #2
+- MENU BUTTON STYLE #3
+- MENU BUTTON STYLE #4
+- MENU BUTTON STYLE #5
+- MENU BUTTON STYLE #6
+- MAIN WRAPPER
+- Social Wrapper
+- Language menu
+- MAIN MENU
+- SUB-MENU
+- Info block
+- MAIN BACKGROUND
+- BACKGROUND IMAGE
+- BACKGROUND LINES
+- MISC
+- WORDPRESS TOOLBAR (IF WORDPRESS TOOLBAR ACTIVE, PUSH HEADER ELEMENTS DOWN A BIT)
+- RESPONSIVE SETTINGS
+*************************************************************/
+
+/* Site Header
+**************************************************/
+.site-header {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 50%;
+    z-index: 999999999;
+    margin-left: -500px;
+    max-width: 1000px;
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+   
+}
+
+
+ .site-header{
+
+    box-shadow:  1px 4px 3px rgba(0,0,0,0.05);
+
+}
+
+#header-top-menu.site-header {
+    background-color: transparent;
+}
+
+#header-top-menu.site-header .eg-main-menu-button-wrapper {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .site-header {
+        margin-left: -315px;
+        max-width: 630px;
+    }
+}
+
+@media screen and (max-width: 629px) {
+    .site-header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .eg-contacts-wrapper .eg-contacts-label{
+        display: none;
+    }
+
+    .eg-contacts-wrapper {
+
+        right:15px;
+    }
+}
+
+/* LOGO
+**************************************************/
+/* wrapper */
+.eg-logo-wrapper {
+    position: relative;
+    z-index: 1;
+    margin: 15px auto;
+    display: table;
+}
+
+/* if left positioning active */
+/* if logo center positioning active */
+/* if logo is an image */
+.eg-logo-image img {
+    /* width: auto; */
+    max-height: 45px;
+	width: 186px;
+	/* height: 45px; */
+}
+/* if logo is text */
+
+/* MENU BUTTON
+**************************************************/
+/* wrapper */
+.eg-main-menu-button-wrapper {
+    position: absolute;
+    z-index: 1;
+    top:15px;
+    left: 30px;
+    width:50px;
+    height:46px;
+    cursor:pointer;
+
+    -webkit-transition:opacity .2s ease .3s, top 0s ease .3s;
+    -moz-transition:opacity .2s ease .3s, top 0s ease .3s;
+    transition:opacity .2s ease .3s, top 0s ease .3s;
+
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.eg-main-menu-button-wrapper .eg-menu-button-label.close {
+    display: none;
+}
+/* if positioned right */
+
+@media screen and (max-width: 549px) {
+    .eg-main-menu-button-wrapper {
+        left: 10px;
+    }
+
+    .eg-menu-button-label {
+        display: none;
+    }
+
+    #header-top-menu .eg-main-menu-button-wrapper {
+        position: relative;
+    }
+}
+
+/* MENU BUTTON STYLE #1
+**************************************************/
+.eg-contacts-wrapper {
+    position: absolute;
+    right: 10px;
+    top: 27px;
+}
+
+.eg-contacts-wrapper .icon {
+    margin-right: 10px;
+}
+
+.eg-contacts-wrapper i.icon {
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.icon {
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.icon-contacts:before {
+    content: '';
+    background: url("../image/svg/icon-messages.svg") no-repeat center center;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.eg-contacts-label {
+    font-family : 'Avenir Next Cyr';
+    font-weight : bold;
+    font-size : 12px;
+    text-transform : uppercase;
+    color : #EC8171;
+}
+
+/* MENU BUTTON STYLE #1
+**************************************************/
+/* menu bars (active) */
+
+
+/* MENU BUTTON STYLE #2
+**************************************************/
+/* menu bars (active) */
+
+
+/* MENU BUTTON STYLE #3
+**************************************************/
+/* menu bars (active) */
+
+
+/* MENU BUTTON STYLE #4
+**************************************************/
+.eg-main-menu-button-four {
+    padding:6px 10px;
+
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    transition:all .3s ease;
+}
+.eg-main-menu-button-four:before,
+.eg-main-menu-button-four div.eg-main-menu-button-four-middle:before,
+.eg-main-menu-button-four:after {
+    content:'';
+    display:block;
+    width:25px;
+    height:2px;
+    margin:7px 0;
+    background-color:#92959E;
+
+    -webkit-transition:all .25s ease;
+    -moz-transition:all .25s ease;
+    transition:all .25s ease;
+
+    /* lessen animation 'pop' in Firefox */
+    outline:1px solid transparent;
+}
+.eg-main-menu-button-four div.eg-main-menu-button-four-middle:before {
+    width:20px;
+}
+.eg-main-menu-button-four:after {
+    width:15px;
+}
+/* menu bars (active) */
+
+
+/* MENU BUTTON STYLE #5
+**************************************************/
+/* menu bars (active) */
+
+
+/* MENU BUTTON STYLE #6
+**************************************************/
+/* menu bars (active) */
+
+
+/* MENU BUTTON LABEL
+**************************************************/
+.eg-menu-button-label {
+    position:absolute;
+    top:7px;
+    left:40px;
+    font-family : 'Avenir Next Cyr';
+    font-weight : bold;
+    font-size : 12px;
+    text-transform : uppercase;
+    color: #EC8171;
+    letter-spacing:0;
+    padding:10px;
+    white-space:nowrap;
+
+    -webkit-transition:all .25s ease;
+    -moz-transition:all .25s ease;
+    transition:all .25s ease;
+}
+
+
+/* MAIN WRAPPER
+**************************************************/
+/* main wrapper */
+.eg-main-wrapper {
+    position:fixed;
+    z-index: 999999998;
+    top:0;
+    bottom:0;
+    left:-100%;
+    width:100%;
+    overflow-x:hidden;
+
+    margin:0;
+    padding:0;
+    color:#767676;
+
+    -webkit-transition:left 0s ease .4s;
+    -moz-transition:left 0s ease .4s;
+    transition:left 0s ease .4s;
+}
+
+/* Social Wrapper
+**************************************************/
+.eg-social-wrapper {
+    display: none;
+    margin: 30px auto;
+}
+
+.eg-social-wrapper ul {
+    display: table-row;
+}
+
+.eg-social-wrapper ul li {
+    display: table-cell;
+}
+
+.eg-social-wrapper a {
+    padding: 15px;
+}
+
+.eg-social-wrapper a:hover > * {
+    color: #EC8171;
+}
+
+.eg-social-wrapper a > * {
+    font-size : 17px;
+    color : #FFFFFF;
+}
+
+@media screen and (max-width: 549px) {
+    .eg-social-wrapper {
+        margin: 40px 0 30px 9px;
+    }
+}
+
+
+/* Language menu
+**************************************************/
+.eg-language-wrapper {
+    display: none;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    max-width: 137px;
+    width: 100%;
+}
+
+.eg-language-wrapper  .side-nav {
+    display: table;
+    width: 100%;
+}
+
+.eg-language-wrapper  .side-nav li {
+    display: table-cell;
+}
+
+.eg-language-wrapper  .side-nav li a {
+    font-family : 'Avenir Next Cyr';
+    font-weight : bold;
+    font-size : 12px;
+    text-transform : uppercase;
+    color : #FFFFFF;
+    opacity : 1;
+}
+
+.eg-language-wrapper  .side-nav li a:hover {
+    color: #EC8171;
+}
+
+.eg-language-wrapper  .side-nav li.active a {
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 1024px) {
+    .eg-language-wrapper {
+        right: 0;
+    }
+
+    #lang_switch li:not(.active) {
+        position: relative;
+        visibility: visible;
+        background-color: transparent;
+        opacity: 1;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .eg-language-wrapper {
+        position: relative;
+        top: 0;
+        padding-left: 10px;
+    }
+
+    .eg-language-wrapper .side-nav {
+        padding: 0;
+    }
+}
+
+/* MAIN MENU
+**************************************************/
+.eg-menu-wrapper {
+    position:relative;
+    top:150px;
+    margin:0 auto;
+    padding:9px 0 50px 35px;
+    max-width: 470px;
+
+    /* prevent iOS scroll flicker */
+    transform:translate3d(0,0,0);
+    -webkit-transform:translate3d(0,0,0);
+    /* smooth scroll on touch devices */
+    -webkit-overflow-scrolling:touch;
+}
+/* top-level menu */
+.eg-by-bonfire .menu {
+    width:90%;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:0;
+}
+.eg-by-bonfire .menu li {
+    margin:0;
+    padding:0;
+    border:none;
+    z-index:auto;
+    position:relative;
+}
+/* individual main menu items */
+.eg-by-bonfire ul li {
+    width:100%;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+/* top-level menu item */
+.eg-by-bonfire ul li a {
+    width:100%;
+    left:0;
+    font-family : 'Avenir Next Cyr';
+    font-weight : bold;
+    font-size : 16px;
+    text-transform : uppercase;
+    color : #FFFFFF;
+    line-height:30px;
+    margin:0;
+    padding:10px 85px 5px 0;
+    display:inline-block;
+    text-decoration:none;
+    outline:none;
+
+    -webkit-transition:all .2s ease;
+    -moz-transition:all .2s ease;
+    transition:all .2s ease;
+}
+/* hide top-level menu items */
+/* hide top-level menu items */
+/* custom border */
+/* top-level menu item hover */
+.eg-by-bonfire ul li a:hover,
+.eg-by-bonfire ul li a:active {
+    color:#C9A536 !important;
+}
+.eg-by-bonfire ul li {
+    opacity:0;
+}
+/* individual li animation speeds (up to 25) */
+
+
+/* SUB-MENU
+**************************************************/
+/* the arrow button */
+.eg-by-bonfire ul li span {
+    width:80px;
+    height:45px;
+    z-index:999;
+    position:absolute;
+    top:3px;
+    right:0;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+    text-align:right;
+    opacity:0;
+
+    -webkit-transition:width .5s ease, right .5s ease, padding .5s ease, -webkit-transform .5s ease;
+    -moz-transition:width .5s ease, right .5s ease, padding .5s ease, -moz-transform .5s ease;
+    transition:width .5s ease, right .5s ease, padding .5s ease, transform .5s ease;
+}
+.eg-by-bonfire .menu-item-has-children:hover span {
+    right:-10px;
+}
+
+.eg-by-bonfire .menu-item-has-children:active span,
+.eg-by-bonfire .menu-item-has-children:focus span {
+    right: 0;
+}
+/* don't let users accidentally click on inactive sub-menu arrow */
+/* active sub-menu arrow */
+
+/* hide non-active sub-menu arrow (tip) */
+/* hide non-active sub-menu arrow (line) */
+/* arrow hover (when sub-menu active) */
+/* sub-menu indicator arrow line */
+.sub-menu-arrow-line {
+    width:40px;
+    height:2px;
+    background-color:#fff;
+    margin-top:20px;
+
+    -webkit-transition:all .6s ease;
+    -moz-transition:all .6s ease;
+    transition:all .6s ease;
+}
+/* sub-menu indicator arrow line (when sub-menu active) */
+/* sub-menu indicator arrow right tip */
+.sub-menu-arrow-tip-right {
+    position:relative;
+    top:-4px;
+    right:-2px;
+    margin:0 0 0 auto;
+    width:0;
+    height:0;
+    border-top:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-left:5px solid #fff;
+
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    transition:all .5s ease;
+}
+/* sub-menu indicator arrow right tip (when sub-menu active) */
+/* sub-menu indicator arrow left tip */
+.sub-menu-arrow-tip-left {
+    position:absolute;
+    top:16px;
+    left:-2px;
+    margin:0 auto 0 0;
+    width:0;
+    height:0;
+    border-top:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-right:5px solid #fff;
+
+    -webkit-transform:scale(0);
+    -moz-transform:scale(0);
+    transform:scale(0);
+
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    transition:all .5s ease;
+}
+/* sub-menu indicator arrow left tip (when sub-menu active) */
+/* sub-menu */
+.eg-by-bonfire ul.sub-menu {
+    position:absolute;
+    z-index:9999;
+    top:0;
+    left:-1000%;
+    list-style:none;
+    margin:10px 0 0 0 !important;
+    padding:0;
+    opacity:0;
+    height:100%;
+    display: table;
+
+    -webkit-transition:opacity .45s ease .2s, left 0s ease 0s;
+    -moz-transition:opacity .45s ease .2s, left 0s ease 0s;
+    transition:opacity .45s ease .2s, left 0s ease 0s;
+}
+/* add bottom padding to last sub-menu item */
+.eg-by-bonfire ul.sub-menu li:last-child {
+    padding-bottom:50px;
+}
+/* sub-menu items */
+.eg-by-bonfire ul.sub-menu li a {
+    min-width:300px;
+    margin:0;
+    padding:0 0 15px 0;
+}
+/* sub-menu items hover */
+.eg-by-bonfire ul.sub-menu li a:hover {
+    color:#C9A536;
+}
+
+
+/* Info block
+**************************************************/
+.eg-info-block-wrapper {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    top: 50px;
+    bottom: 0;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0 40px 0 0;
+    opacity: 0;
+}
+
+.eg-info-block {
+    background: -webkit-linear-gradient(300deg, #7bc475 0, #55a48e 100%);
+    background: linear-gradient(150deg, #7bc475 0, #55a48e 100%);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr=\'#7BC475\', endColorstr=\'#55A48E\' ,GradientType=0)';
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7BC475', endColorstr='#55A48E', GradientType=1);
+    width: 336px;
+    height: 362px;
+    -webkit-box-shadow: 0 10px 15px rgba(0, 51, 51, 0.60);
+    -moz-box-shadow: 0 10px 15px rgba(0, 51, 51, 0.60);
+    box-shadow: 0 10px 15px rgba(0, 51, 51, 0.60);
+    float: right;
+    padding: 25px 30px;
+}
+
+.eg-info-image img {
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+}
+
+.eg-info-title {
+    font-family : 'Avenir Next Cyr';
+    font-weight : bold;
+    font-size : 16px;
+    line-height : 28px;
+    text-transform : uppercase;
+    color : #FFFFFF;
+}
+
+.eg-info-text p {
+    font-family : 'Avenir Next Cyr';
+    font-size : 14px;
+    line-height : 24px;
+    color : #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.eg-info-btn {
+    border: 1px solid #ffffff;
+    text-align: center;
+    display: block;
+    line-height: 3.1;
+    color: #ffffff;
+    height: 40px;
+    font-family : 'Avenir Next Cyr';
+    font-weight : bold;
+    font-size : 12px;
+    text-transform : uppercase;
+}
+
+.eg-info-btn:hover {
+    background-color: #EC8171;
+    color: #ffffff;
+    border-color: #EC8171;
+}
+
+@media screen and (max-width: 1024px) {
+    .eg-info-block-wrapper {
+        max-width: 630px;
+        margin: 0 auto 15px;
+        padding: 0;
+    }
+    .eg-info-block {
+        float: initial;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .eg-info-block-wrapper {
+        max-width: 100%;
+    }
+    .eg-info-block {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* MAIN BACKGROUND
+**************************************************/
+/* main background */
+.eg-main-background {
+    position:fixed;
+    z-index:9999999;
+    left:0;
+    width:100%;
+    height:100%;
+    height:100vh;
+    margin:0;
+    padding:0;
+    background-color:#0C1013;
+    display:block;
+
+    top:-100%;
+    opacity:0;
+
+    -webkit-transition:opacity .5s ease, top 0s ease .5s;
+    -moz-transition:opacity .5s ease, top 0s ease .5s;
+    transition:opacity .5s ease, top 0s ease .5s;
+}
+
+
+/* BACKGROUND IMAGE
+**************************************************/
+/* background image */
+.eg-background-image {
+    position:fixed;
+    z-index:99999999;
+    left:0;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    display:block;
+    background-position:center center;
+
+    top:-100%;
+    opacity:0;
+
+    -webkit-transition:opacity .5s ease, top 0s ease .5s;
+    -moz-transition:opacity .5s ease, top 0s ease .5s;
+    transition:opacity .5s ease, top 0s ease .5s;
+}
+
+
+/* BACKGROUND LINES
+**************************************************/
+.eg-bg-lines-wrapper {
+    position:fixed;
+    z-index:99999999;
+    top:0;
+    left:-1000%;
+    width:100%;
+    height:100%;
+    opacity:0;
+
+    -webkit-transition:opacity .5s ease;
+    -moz-transition:opacity .5s ease;
+    transition:opacity .5s ease;
+}
+.eg-bg-line-one,
+.eg-bg-line-two,
+.eg-bg-line-three,
+.eg-bg-line-four,
+.eg-bg-line-five,
+.eg-bg-line-six {
+    position:fixed;
+    z-index:999999999;
+    left:0;
+    width:200%;
+    height:1px;
+    background-color:#fff;
+
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+
+    -webkit-transform-origin:0 0;
+    -moz-transform-origin:0 0;
+    transform-origin:0 0;
+}
+.eg-bg-line-one { top:50%; }
+.eg-bg-line-two { top:90%; }
+.eg-bg-line-three { top:130%; }
+.eg-bg-line-four { top:170%; }
+.eg-bg-line-five { top:210%; }
+.eg-bg-line-six { top:250%; }
+
+
+/*
+MISC
+**************************************************/
+/* if absolute positioning active */
+
+
+/*
+WORDPRESS TOOLBAR (IF WORDPRESS TOOLBAR ACTIVE, PUSH HEADER ELEMENTS DOWN A BIT)
+**************************************************/
+/* for the thicker, mobile admin bar */
+/* if WordPress amin bar active, keep it above everything else */
+
+/*
+RESPONSIVE SETTINGS
+**************************************************/
+@media screen and (max-width: 500px) {
+    /* menu wrapper */
+    .eg-menu-wrapper {
+        top: 160px !important;
+        width: 325px;
+        margin: 0;
+        left: -20px;
+    }
+
+    .eg-by-bonfire ul.sub-menu {
+        margin-left: 30px !important;
+        width: 95%;
+    }
+    /* text size */
+    .eg-by-bonfire ul li a,
+    .eg-by-bonfire ul li ul.sub-menu a {
+        font-weight:400;
+        font-size: 16px;
+        line-height:20px;
+        min-width: 240px;
+    }
+
+    .eg-by-bonfire ul li a {
+        max-width: 200px;
+        min-width: 80%;
+        padding-right: 5px;
+    }
+    /* sub-menu arrow line */
+    .sub-menu-arrow-line {
+        width: 44px;
+    }
+    /* the arrow button */
+    .eg-by-bonfire ul li span {
+        top:0;
+        width:50px;
+    }
+    /* arrow hover */
+    .eg-by-bonfire .menu-item-has-children:hover span {
+        right:-5px;
+    }
+    /* arrow hover (when sub-menu active) */
+    /* active sub-menu arrow */
+    /* sub-menu indicator arrow line (when sub-menu active) */
+}
+
+/* menu button */
+.eg-main-menu-button-four:before,
+.eg-main-menu-button-four div.eg-main-menu-button-four-middle:before,
+.eg-main-menu-button-four:after { background-color:#ec8171; }
+/* if menu button hidden, remove button height and set default label position to 0 */
+
+/* menu label hover */
+.eg-main-menu-button-wrapper:hover .eg-menu-button-label.close { color: #bf695c; }
+/* menu button style #2 hovers */
+/* menu button style #3 hovers */
+/* menu button style #4 hovers */
+.eg-main-menu-button-wrapper:hover .eg-main-menu-button-four:before { width:15px; }
+.eg-main-menu-button-wrapper:hover .eg-main-menu-button-four:after { width:25px; }
+/* hover colors */
+.eg-main-menu-button-wrapper:hover .eg-main-menu-button-four:before,
+.eg-main-menu-button-wrapper:hover .eg-main-menu-button-four div.eg-main-menu-button-four-middle:before,
+.eg-main-menu-button-wrapper:hover .eg-main-menu-button-four:after { background-color:#ec8171; }
+/* menu button active */
+/* menu button active hover */
+
+/* menu */
+.eg-bg-line-one,
+.eg-bg-line-two,
+.eg-bg-line-three,
+.eg-bg-line-four,
+.eg-by-bonfire ul li ul.sub-menu li a { color:#eee; }
+.eg-by-bonfire ul li a:hover,
+.eg-by-bonfire ul li ul.sub-menu li a:hover {color:#ec8171 !important; }
+.sub-menu-arrow-line { background-color:#ffffff; }
+.sub-menu-arrow-tip-right { border-left-color:#ffffff; }
+.sub-menu-arrow-tip-left { border-right-color:#ffffff; }
+
+/* background image as cover/pattern + background image opacity */
+.eg-background-image {
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* menu button animations (-/X) */
+/* X SIGN ANIMATION */
+/* button style #1 top bar*/
+/* button style #1 bottom bar*/
+/* button style #1 middle bar*/
+/* button style #2 top bar*/
+/* button style #2 bottom bar*/
+/* button style #2 middle bar*/
+/* button style #3 top bar*/
+/* button style #3 bottom bar*/
+/* button style #3 middle bar*/
+/* button style #4 top bar*/
+/* button style #4 bottom bar*/
+/* button style #4 middle bar*/
+/* button style #5 top bar*/
+/* button style #5 bottom bar*/
+/* button style #5 middle bar*/
+/* button style #6 top bar*/
+/* button style #6 bottom bar*/
+
+/* hide eg between resolutions */
+@media ( min-width:px) and (max-width:px) {
+    .eg-main-menu-button-wrapper,
+    .eg-main-wrapper,
+    .eg-main-background,
+    .eg-bg-lines-wrapper,
+    .eg-logo-wrapper { display:none; }
+}
+
+
+.btn {
+    padding: 12px 10px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #ec8171;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+    color: #fff;
+    display: inline-block;
+    min-width: 46px;
+    height: 42px;
+    letter-spacing: 1.2px;
+    font-size: 12px;
+    line-height: 19px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Avenir Next Cyr', arial, sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+
+/****flow****/
+
+
+  .breadcrumbs {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    border: 0;
+    background: 0 0;
+    text-align: center
+}
+
+.breadcrumbs > * {
+    color: #008CBA;
+    float: left;
+    font-size: 0.6875rem;
+    line-height: 0.6875rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.breadcrumbs > *:before {
+
+        color: #AAAAAA;
+    content: "/";
+    margin: 0 0.75rem;
+    position: relative;
+    top: 1px;
+}
+
+.breadcrumbs > *:first-child:before {
+    content: " ";
+    margin: 0;
+}
+.breadcrumbs *, .breadcrumbs a, .breadcrumbs span {
+    color: #303030;
+    text-transform: none;
+    font-size: 14px
+}
+.breadcrumbs li {
+    display: inline-block;
+    float: none;
+    margin-bottom: 10px
+}
+.breadcrumbs li:last-child {
+    margin-top: -3px
+}
